@@ -12,6 +12,6 @@ public class FirstController {
 	@RequestMapping("/hi/{name}")
 	public String welcome(Map model, @PathVariable String name){
 		model.put("name", name);
-		return "hello";
+		return "hello World";
 	}
 }
